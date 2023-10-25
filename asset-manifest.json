@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.19233492.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.01d60612.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.ff0c6fb5.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.27f72313.js",
+    "static/media/iphoneImg.png": "/pt_product_catalog_fe/static/media/iphoneImg.fdaf90f4da7a2bb0a474.png",
     "static/media/Mont-Regular.otf": "/pt_product_catalog_fe/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
     "static/media/Mont-SemiBold.otf": "/pt_product_catalog_fe/static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
     "static/media/Mont-Bold.otf": "/pt_product_catalog_fe/static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
@@ -17,11 +18,11 @@
     "static/media/menu.svg": "/pt_product_catalog_fe/static/media/menu.73ddde2c093f9fb313b9.svg",
     "static/media/arrow-left-black.svg": "/pt_product_catalog_fe/static/media/arrow-left-black.bf81332d01113ccd8104.svg",
     "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62.svg",
-    "main.19233492.css.map": "/pt_product_catalog_fe/static/css/main.19233492.css.map",
-    "main.01d60612.js.map": "/pt_product_catalog_fe/static/js/main.01d60612.js.map"
+    "main.ff0c6fb5.css.map": "/pt_product_catalog_fe/static/css/main.ff0c6fb5.css.map",
+    "main.27f72313.js.map": "/pt_product_catalog_fe/static/js/main.27f72313.js.map"
   },
   "entrypoints": [
-    "static/css/main.19233492.css",
-    "static/js/main.01d60612.js"
+    "static/css/main.ff0c6fb5.css",
+    "static/js/main.27f72313.js"
   ]
 }
