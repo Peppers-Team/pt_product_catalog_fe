@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.20eaea2f.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.45b95156.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.19233492.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.01d60612.js",
     "static/media/Mont-Regular.otf": "/pt_product_catalog_fe/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
     "static/media/Mont-SemiBold.otf": "/pt_product_catalog_fe/static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
     "static/media/Mont-Bold.otf": "/pt_product_catalog_fe/static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
+    "static/media/banner.png": "/pt_product_catalog_fe/static/media/banner.4b05499eed1f9de5246e.png",
+    "static/media/accessories.png": "/pt_product_catalog_fe/static/media/accessories.c89ddada842650221bb3.png",
+    "static/media/tablets.png": "/pt_product_catalog_fe/static/media/tablets.ab919a9be70a5a66bd8c.png",
+    "static/media/mobile-phones.png": "/pt_product_catalog_fe/static/media/mobile-phones.5dd981d1bd9921fe180f.png",
+    "static/media/banner-mobile.png": "/pt_product_catalog_fe/static/media/banner-mobile.efbec9e7fa491a9a8b7b.png",
     "static/media/shopping-bag-cart.svg": "/pt_product_catalog_fe/static/media/shopping-bag-cart.df23e4fbb25ff3701b16.svg",
     "static/media/favouritesh-heart-like.svg": "/pt_product_catalog_fe/static/media/favouritesh-heart-like.cc696932b63c19f48776.svg",
     "index.html": "/pt_product_catalog_fe/index.html",
     "static/media/close.svg": "/pt_product_catalog_fe/static/media/close.cdfb6ae506fe360c9ad4.svg",
     "static/media/menu.svg": "/pt_product_catalog_fe/static/media/menu.73ddde2c093f9fb313b9.svg",
-    "main.20eaea2f.css.map": "/pt_product_catalog_fe/static/css/main.20eaea2f.css.map",
-    "main.45b95156.js.map": "/pt_product_catalog_fe/static/js/main.45b95156.js.map"
+    "static/media/arrow-left-black.svg": "/pt_product_catalog_fe/static/media/arrow-left-black.bf81332d01113ccd8104.svg",
+    "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62.svg",
+    "main.19233492.css.map": "/pt_product_catalog_fe/static/css/main.19233492.css.map",
+    "main.01d60612.js.map": "/pt_product_catalog_fe/static/js/main.01d60612.js.map"
   },
   "entrypoints": [
-    "static/css/main.20eaea2f.css",
-    "static/js/main.45b95156.js"
+    "static/css/main.19233492.css",
+    "static/js/main.01d60612.js"
   ]
 }
