@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.ff0c6fb5.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.27f72313.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.67fa5424.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.ceae7c9c.js",
     "static/media/iphoneImg.png": "/pt_product_catalog_fe/static/media/iphoneImg.fdaf90f4da7a2bb0a474.png",
+    "static/media/404-error.png": "/pt_product_catalog_fe/static/media/404-error.bf0bbfeb31e42c5dc123.png",
     "static/media/Mont-Regular.otf": "/pt_product_catalog_fe/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
     "static/media/Mont-SemiBold.otf": "/pt_product_catalog_fe/static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
     "static/media/Mont-Bold.otf": "/pt_product_catalog_fe/static/media/Mont-Bold.03c8c2f6127c1da0fc39.otf",
@@ -13,16 +14,17 @@
     "static/media/banner-mobile.png": "/pt_product_catalog_fe/static/media/banner-mobile.efbec9e7fa491a9a8b7b.png",
     "static/media/shopping-bag-cart.svg": "/pt_product_catalog_fe/static/media/shopping-bag-cart.df23e4fbb25ff3701b16.svg",
     "static/media/favouritesh-heart-like.svg": "/pt_product_catalog_fe/static/media/favouritesh-heart-like.cc696932b63c19f48776.svg",
+    "static/media/favourites-filled-heart-like.svg": "/pt_product_catalog_fe/static/media/favourites-filled-heart-like.197c85893972fd26ee86.svg",
     "index.html": "/pt_product_catalog_fe/index.html",
     "static/media/close.svg": "/pt_product_catalog_fe/static/media/close.cdfb6ae506fe360c9ad4.svg",
     "static/media/menu.svg": "/pt_product_catalog_fe/static/media/menu.73ddde2c093f9fb313b9.svg",
-    "static/media/arrow-left-black.svg": "/pt_product_catalog_fe/static/media/arrow-left-black.bf81332d01113ccd8104.svg",
-    "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62.svg",
-    "main.ff0c6fb5.css.map": "/pt_product_catalog_fe/static/css/main.ff0c6fb5.css.map",
-    "main.27f72313.js.map": "/pt_product_catalog_fe/static/js/main.27f72313.js.map"
+    "static/media/arrow-left-black.svg": "/pt_product_catalog_fe/static/media/arrow-left-black.bf81332d01113ccd810483333e42f1f1.svg",
+    "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62005a615449b9.svg",
+    "main.67fa5424.css.map": "/pt_product_catalog_fe/static/css/main.67fa5424.css.map",
+    "main.ceae7c9c.js.map": "/pt_product_catalog_fe/static/js/main.ceae7c9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff0c6fb5.css",
-    "static/js/main.27f72313.js"
+    "static/css/main.67fa5424.css",
+    "static/js/main.ceae7c9c.js"
   ]
 }
