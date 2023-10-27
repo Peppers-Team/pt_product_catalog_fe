@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.de3b5096.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.d8378d29.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.32f95fd8.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.fb330ce8.js",
     "static/media/iphoneImg.png": "/pt_product_catalog_fe/static/media/iphoneImg.fdaf90f4da7a2bb0a474.png",
     "static/media/404-error.png": "/pt_product_catalog_fe/static/media/404-error.bf0bbfeb31e42c5dc123.png",
     "static/media/Mont-Regular.otf": "/pt_product_catalog_fe/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
@@ -13,21 +13,20 @@
     "static/media/mobile-phones.png": "/pt_product_catalog_fe/static/media/mobile-phones.5dd981d1bd9921fe180f.png",
     "static/media/banner-mobile.png": "/pt_product_catalog_fe/static/media/banner-mobile.efbec9e7fa491a9a8b7b.png",
     "static/media/shopping-bag-cart.svg": "/pt_product_catalog_fe/static/media/shopping-bag-cart.df23e4fbb25ff3701b16.svg",
-    "static/media/addToFavorite.svg": "/pt_product_catalog_fe/static/media/addToFavorite.cc696932b63c19f487763e75a935dfcb.svg",
-    "static/media/favouritesh-heart-like.svg": "/pt_product_catalog_fe/static/media/favouritesh-heart-like.cc696932b63c19f487763e75a935dfcb.svg",
-    "static/media/addedToFavorite.svg": "/pt_product_catalog_fe/static/media/addedToFavorite.197c85893972fd26ee86af2ee3df0aca.svg",
-    "static/media/favourites-filled-heart-like.svg": "/pt_product_catalog_fe/static/media/favourites-filled-heart-like.197c85893972fd26ee86af2ee3df0aca.svg",
+    "static/media/favouritesh-heart-like.svg": "/pt_product_catalog_fe/static/media/favouritesh-heart-like.cc696932b63c19f48776.svg",
+    "static/media/Home.svg": "/pt_product_catalog_fe/static/media/Home.9a24a70540404ccecd05fd9f900ddeeb.svg",
+    "static/media/favourites-filled-heart-like.svg": "/pt_product_catalog_fe/static/media/favourites-filled-heart-like.197c85893972fd26ee86.svg",
     "index.html": "/pt_product_catalog_fe/index.html",
     "static/media/close.svg": "/pt_product_catalog_fe/static/media/close.cdfb6ae506fe360c9ad4.svg",
     "static/media/menu.svg": "/pt_product_catalog_fe/static/media/menu.73ddde2c093f9fb313b9.svg",
-    "static/media/Chevron (Arrow Right).svg": "/pt_product_catalog_fe/static/media/Chevron (Arrow Right).9d512591246a0a504ded29346180b9f9.svg",
+    "static/media/arrow-right.svg": "/pt_product_catalog_fe/static/media/arrow-right.e028d3889646e0b5e56cf54f47bb701a.svg",
     "static/media/arrow-left-black.svg": "/pt_product_catalog_fe/static/media/arrow-left-black.bf81332d01113ccd810483333e42f1f1.svg",
     "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62005a615449b9.svg",
-    "main.de3b5096.css.map": "/pt_product_catalog_fe/static/css/main.de3b5096.css.map",
-    "main.d8378d29.js.map": "/pt_product_catalog_fe/static/js/main.d8378d29.js.map"
+    "main.32f95fd8.css.map": "/pt_product_catalog_fe/static/css/main.32f95fd8.css.map",
+    "main.fb330ce8.js.map": "/pt_product_catalog_fe/static/js/main.fb330ce8.js.map"
   },
   "entrypoints": [
-    "static/css/main.de3b5096.css",
-    "static/js/main.d8378d29.js"
+    "static/css/main.32f95fd8.css",
+    "static/js/main.fb330ce8.js"
   ]
 }
