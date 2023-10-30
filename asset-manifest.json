@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pt_product_catalog_fe/static/css/main.8f6a35c3.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.7de8e7b0.js",
+    "main.js": "/pt_product_catalog_fe/static/js/main.e50af266.js",
     "static/media/404-error.png": "/pt_product_catalog_fe/static/media/404-error.bf0bbfeb31e42c5dc123.png",
     "static/media/banner-ipad.png": "/pt_product_catalog_fe/static/media/banner-ipad.08307b7da002d18da7a3.png",
     "static/media/Mont-Regular.otf": "/pt_product_catalog_fe/static/media/Mont-Regular.1d26d89f7339866d3133.otf",
@@ -32,10 +32,10 @@
     "static/media/Minus-none-active.svg": "/pt_product_catalog_fe/static/media/Minus-none-active.df86c77d05f3d4a96cb7.svg",
     "static/media/Minus.svg": "/pt_product_catalog_fe/static/media/Minus.6147cb5db4c975f91de0.svg",
     "main.8f6a35c3.css.map": "/pt_product_catalog_fe/static/css/main.8f6a35c3.css.map",
-    "main.7de8e7b0.js.map": "/pt_product_catalog_fe/static/js/main.7de8e7b0.js.map"
+    "main.e50af266.js.map": "/pt_product_catalog_fe/static/js/main.e50af266.js.map"
   },
   "entrypoints": [
     "static/css/main.8f6a35c3.css",
-    "static/js/main.7de8e7b0.js"
+    "static/js/main.e50af266.js"
   ]
 }
