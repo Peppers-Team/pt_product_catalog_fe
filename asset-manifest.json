@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.18f690f4.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.34cb9bcb.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.ac1e8525.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.89c7e1be.js",
     "static/media/empty-cart.png": "/pt_product_catalog_fe/static/media/empty-cart.5b77f3680a0b5992d24c.png",
     "static/media/404-error.png": "/pt_product_catalog_fe/static/media/404-error.bf0bbfeb31e42c5dc123.png",
     "static/media/banner-ipad.png": "/pt_product_catalog_fe/static/media/banner-ipad.08307b7da002d18da7a3.png",
@@ -34,11 +34,11 @@
     "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62005a615449b9.svg",
     "static/media/Minus-none-active.svg": "/pt_product_catalog_fe/static/media/Minus-none-active.df86c77d05f3d4a96cb7.svg",
     "static/media/Minus.svg": "/pt_product_catalog_fe/static/media/Minus.6147cb5db4c975f91de0.svg",
-    "main.18f690f4.css.map": "/pt_product_catalog_fe/static/css/main.18f690f4.css.map",
-    "main.34cb9bcb.js.map": "/pt_product_catalog_fe/static/js/main.34cb9bcb.js.map"
+    "main.ac1e8525.css.map": "/pt_product_catalog_fe/static/css/main.ac1e8525.css.map",
+    "main.89c7e1be.js.map": "/pt_product_catalog_fe/static/js/main.89c7e1be.js.map"
   },
   "entrypoints": [
-    "static/css/main.18f690f4.css",
-    "static/js/main.34cb9bcb.js"
+    "static/css/main.ac1e8525.css",
+    "static/js/main.89c7e1be.js"
   ]
 }
