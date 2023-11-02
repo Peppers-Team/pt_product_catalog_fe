@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.091b485c.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.715c61f3.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.0a1ab910.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.a257c7c5.js",
     "static/media/empty-cart.png": "/pt_product_catalog_fe/static/media/empty-cart.5b77f3680a0b5992d24c.png",
     "static/media/no-favourites.png": "/pt_product_catalog_fe/static/media/no-favourites.1ff2fd14c6ea6af87413.png",
     "static/media/404-error.png": "/pt_product_catalog_fe/static/media/404-error.bf0bbfeb31e42c5dc123.png",
@@ -19,7 +19,11 @@
     "static/media/banner-phone-mobile.png": "/pt_product_catalog_fe/static/media/banner-phone-mobile.efbec9e7fa491a9a8b7b.png",
     "static/media/shopping-bag-cart.svg": "/pt_product_catalog_fe/static/media/shopping-bag-cart.df23e4fbb25ff3701b16.svg",
     "static/media/favouritesh-heart-like.svg": "/pt_product_catalog_fe/static/media/favouritesh-heart-like.cc696932b63c19f487763e75a935dfcb.svg",
+    "static/media/sun-active.svg": "/pt_product_catalog_fe/static/media/sun-active.62156bd69b26bcedd76e.svg",
+    "static/media/sun.svg": "/pt_product_catalog_fe/static/media/sun.2e07176d93048b0c2118.svg",
     "static/media/Home.svg": "/pt_product_catalog_fe/static/media/Home.9a24a70540404ccecd05fd9f900ddeeb.svg",
+    "static/media/moon-active.svg": "/pt_product_catalog_fe/static/media/moon-active.cca305b35a65d6486c15.svg",
+    "static/media/moon.svg": "/pt_product_catalog_fe/static/media/moon.153007e13e8084b898f4.svg",
     "static/media/Search.svg": "/pt_product_catalog_fe/static/media/Search.d8fcb9d1e3842ba3279d.svg",
     "static/media/favourites-filled-heart-like.svg": "/pt_product_catalog_fe/static/media/favourites-filled-heart-like.197c85893972fd26ee86af2ee3df0aca.svg",
     "index.html": "/pt_product_catalog_fe/index.html",
@@ -34,11 +38,11 @@
     "static/media/arrow-right-black.svg": "/pt_product_catalog_fe/static/media/arrow-right-black.4705e353b524deb4ba62005a615449b9.svg",
     "static/media/Minus-none-active.svg": "/pt_product_catalog_fe/static/media/Minus-none-active.df86c77d05f3d4a96cb7.svg",
     "static/media/Minus.svg": "/pt_product_catalog_fe/static/media/Minus.6147cb5db4c975f91de0.svg",
-    "main.091b485c.css.map": "/pt_product_catalog_fe/static/css/main.091b485c.css.map",
-    "main.715c61f3.js.map": "/pt_product_catalog_fe/static/js/main.715c61f3.js.map"
+    "main.0a1ab910.css.map": "/pt_product_catalog_fe/static/css/main.0a1ab910.css.map",
+    "main.a257c7c5.js.map": "/pt_product_catalog_fe/static/js/main.a257c7c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.091b485c.css",
-    "static/js/main.715c61f3.js"
+    "static/css/main.0a1ab910.css",
+    "static/js/main.a257c7c5.js"
   ]
 }
