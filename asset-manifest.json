@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pt_product_catalog_fe/static/css/main.8f4fa83c.css",
-    "main.js": "/pt_product_catalog_fe/static/js/main.c4b03b3d.js",
+    "main.css": "/pt_product_catalog_fe/static/css/main.f0e12a92.css",
+    "main.js": "/pt_product_catalog_fe/static/js/main.cc37b6c7.js",
     "static/media/empty-cart.png": "/pt_product_catalog_fe/static/media/empty-cart.5b77f3680a0b5992d24c.png",
     "static/media/no-favourites.png": "/pt_product_catalog_fe/static/media/no-favourites.1ff2fd14c6ea6af87413.png",
     "static/media/404-error.png": "/pt_product_catalog_fe/static/media/404-error.bf0bbfeb31e42c5dc123.png",
@@ -45,11 +45,11 @@
     "static/media/Minus-none-active.svg": "/pt_product_catalog_fe/static/media/Minus-none-active.df86c77d05f3d4a96cb7.svg",
     "static/media/Minus.svg": "/pt_product_catalog_fe/static/media/Minus.6147cb5db4c975f91de0.svg",
     "static/media/minus.svg": "/pt_product_catalog_fe/static/media/minus.0365a13e7f5baa53bce8.svg",
-    "main.8f4fa83c.css.map": "/pt_product_catalog_fe/static/css/main.8f4fa83c.css.map",
-    "main.c4b03b3d.js.map": "/pt_product_catalog_fe/static/js/main.c4b03b3d.js.map"
+    "main.f0e12a92.css.map": "/pt_product_catalog_fe/static/css/main.f0e12a92.css.map",
+    "main.cc37b6c7.js.map": "/pt_product_catalog_fe/static/js/main.cc37b6c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f4fa83c.css",
-    "static/js/main.c4b03b3d.js"
+    "static/css/main.f0e12a92.css",
+    "static/js/main.cc37b6c7.js"
   ]
 }
