@@ -1,0 +1,23 @@
+.ItemCard {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+  &__top-bar {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+@media (max-width: 1199px) {
+  .ItemCard {
+    gap: 64px;
+  }
+}
+
+@media (max-width: 639px) {
+  .ItemCard {
+    gap: 56px;
+  }
+}

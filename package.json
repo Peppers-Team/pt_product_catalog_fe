@@ -1,8 +1,12 @@
 {
   "name": "product_catalog_fe",
+  "homepage": "https://Peppers-Team.github.io/pt_product_catalog_fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.16",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,23 +14,30 @@
     "@types/node": "^16.18.59",
     "@types/react": "^18.2.31",
     "@types/react-dom": "^18.2.14",
+    "classnames": "^2.3.2",
+    "gh-pages": "^6.0.0",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.6",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.4.5",
+    "react-loading-skeleton": "^3.3.1",
+    "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "react-select": "^5.7.7",
+    "reactjs-popup": "^2.0.6",
+    "swiper": "^11.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "lint": "eslint . --ignore-path .gitignore --fix",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -39,5 +50,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@mate-academy/eslint-config-react-typescript": "^1.0.12",
+    "@types/estree": "^1.0.3",
+    "@types/react-transition-group": "^4.4.8",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "nodemon": "^3.0.1",
+    "sass": "^1.69.4",
+    "typescript": "^4.4.4"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,jsx}": "npm run lint"
   }
 }

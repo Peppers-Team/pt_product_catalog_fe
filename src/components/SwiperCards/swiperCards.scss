@@ -1,0 +1,40 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5px;
+
+  &-cards {
+    margin-left: 24px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  &-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed!important;
+  }
+
+  &__item {
+    width: 100%;
+    height: 512px;
+    background-color: red;
+  }
+}
+
+@media (max-width: 1199px) {
+  .swiper-slide {
+    min-width: 237px;
+  }
+}
+
+@media (max-width: 639px) {
+  .swiper-slide {
+    min-width: 212px;
+  }
+}

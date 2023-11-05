@@ -1,0 +1,29 @@
+.top-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  margin: 24px 0px 25px 15px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+  }
+
+  &__link-text {
+    font-family: 'Mont-SemiBold', sans-serif;
+    color: var(--primaryColor);
+    padding-top: 4px;
+    font-weight: 700;
+    font-size: 12px;
+
+    &--last {
+      color: var(--secondaryColor);
+      font-weight: 600;
+    }
+  }
+
+  &--no-margin {
+    margin-left: 0;
+  }
+}

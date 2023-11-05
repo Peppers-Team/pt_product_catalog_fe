@@ -1,0 +1,48 @@
+.home-button {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+
+  font-family: 'Mont-Regular', serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  border-radius: 8px;
+  background-color: var(--accentColor);
+
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+
+    background-image: linear-gradient(to right,
+    rgb(119, 67, 219),
+    rgb(123, 65, 198),
+    rgb(90, 50, 190),
+    rgb(143, 80, 246),
+    rgb(107, 74, 167),
+    rgb(103, 63, 219),
+    rgb(118, 72, 219),
+    rgb(95, 54, 218),
+    rgb(110, 67, 218),
+    );
+    animation:slidebg 2s linear infinite;
+  }
+
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.About-info {
+  display: grid;
+  grid-template-columns: repeat(24, 32px);
+  column-gap: 16px;
+
+  &__about {
+    grid-column: 1/12;
+
+    &__description {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      margin-top: 32px;
+
+      &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      &__title {
+        margin: 0;
+
+        color: var(--primaryColor);
+
+        font-family: 'Mont-Semibold';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      &__text {
+        margin: 0;
+
+        color: var(--secondaryColor);
+
+        font-family: 'Mont-Regular';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+      }
+    }
+  }
+
+  &__about-header {
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  &__header {
+    color: var(--primaryColor);
+
+    font-family: 'Mont-Bold';
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 140%;
+    padding-bottom: 16px;
+    margin: 0;
+
+    border-bottom: 1px solid var(--elementsColor);
+  }
+
+  &__tech-specs {
+    grid-column: 13/-1;
+
+    &__stats {
+      margin-top: 25px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      font-family: 'Mont-Regular';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 21px;
+
+      &__row {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__title {
+        color: var(--secondaryColor);
+        text-transform: capitalize;
+      }
+
+      &__data {
+        color: var(--primaryColor);
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .About-info {
+    display: flex;
+    grid-template-columns: none;
+    column-gap: none;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 64px;
+
+    &__about {
+      width: 100%;
+    }
+
+    &__tech-specs {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .About-info {
+    display: flex;
+    grid-template-columns: none;
+    column-gap: none;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 56px;
+
+    &__header {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    &__about {
+      width: 100%;
+
+      &__description {
+        &__title {
+          font-size: 16px;
+          font-weight: 700;
+        }
+      }
+    }
+
+    &__tech-specs {
+      width: 100%;
+    }
+  }
+}

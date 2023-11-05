@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Mont-Bold";
+  src: local("Mont-Bold"),
+  url("./assets/fonts/Mont-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Mont-Regular";
+  src: local("Mont-Regular"),
+  url("./assets/fonts/Mont-Regular.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Mont-SemiBold";
+  src: local("Mont-SemiBold"),
+  url("./assets/fonts/Mont-SemiBold.otf") format("truetype");
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+  font-family: 'Mont-Bold', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  color: var(--primaryColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding-inline: 24px;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 1200px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 639px) {
+  .wrapper {
+    padding-inline: 16px;
+  }
+}
+
+#is-light {
+  $primaryColor: #0f0f11;
+  $secondaryColor: #89939a;
+  $accentColor: #905bff;
+  $iconsPlaceholdersColor: #b4bdc3;
+  $elementsColor: #e2e6e9;
+  $pageBackgroundColor: #fafbfc;
+  $cardBackgroundColor: #ffffff;
+
+  background-color: var(--pageBackgroundColor);
+}
+
+#is-dark {
+  $primaryColor: #f1f2f9;
+  $secondaryColor: #75767f;
+  $accentColor: #905bff;
+  $iconsPlaceholdersColor: #323542;
+  $elementsColor: #3b3e4a;
+  $pageBackgroundColor: #0f1121;
+  $cardBackgroundColor: #161827;
+
+  background-color: var(--pageBackgroundColor);
+}

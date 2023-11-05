@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Outlet } from 'react-router-dom';
+import { SkeletonTheme } from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
 
-function App() {
+import './App.scss';
+import './variables.css';
+
+import { Header } from './components/Header';
+import { Footer } from './components/Footer/Footer';
+import { useTheme } from './context/ThemeContext';
+
+export const App = () => {
+  const { theme } = useTheme();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SkeletonTheme
+      baseColor={theme.theme === 'dark' ? '#45474B' : '#F1EFEF'}
+      highlightColor="#7D7C7C"
+    >
+      <div id={`is-${theme.theme}`}>
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
+    </SkeletonTheme>
   );
-}
-
-export default App;
+};

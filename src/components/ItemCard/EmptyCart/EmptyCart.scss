@@ -1,0 +1,33 @@
+$headerHeight: 70px;
+$footerHeight: 70px;
+$imageHeight: 50vh;
+
+.Empty-cart {
+  padding-top: 10px;
+  min-height: calc(100vh - $headerHeight - $footerHeight);
+
+  &__header {
+    color: var(--primaryColor);
+    text-align: center;
+
+    font-family: 'Mont-Bold';
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: -0.32px;
+  }
+
+  &__button-home {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+  }
+}
+
+.img-cart {
+  padding-top: 20px;
+  padding: 1px;
+  margin: 0 auto;
+  display: block;
+  height: $imageHeight;
+}

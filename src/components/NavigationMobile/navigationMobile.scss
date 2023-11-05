@@ -1,0 +1,132 @@
+.navigation-mobile {
+  margin-top: 50px;
+  padding-top: 24px;
+  height: 100vh;
+  background-color: var(--pageBackgroundColor);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    &-link {
+      text-transform: uppercase;
+      padding-bottom: 8px;
+      line-height: 27px;
+      color: var(--secondaryColor);
+      font-size: 12px;
+
+      border-bottom: 3px solid transparent;
+    }
+  }
+
+  &__icons {
+    position: absolute;
+    bottom: 64px;
+
+    display: flex;
+    width: 100%;
+    border-top: 1px solid var(--elementsColor);
+  }
+}
+
+.icon {
+  &--favourites__link-navigation-mobile,
+  &--shopping-bag__link-navigation-mobile {
+    width: 50%;
+    height: 64px;
+    padding-bottom: 10px;
+
+  }
+
+  &--search__link-navigation-mobile {
+    width: 100%;
+    margin-top: 100px;
+
+    &--mobile {
+      border: none;
+    }
+  }
+
+  &--favourites,
+  &--shopping-bag,
+  &--moon,
+  &--sun,
+  &--sun-dark,
+  &--moon-dark {
+    z-index: 999;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  &--favourites {
+    background-image: url(../../assets/icons/favouritesh-heart-like.svg);
+    transition: background-image 0.3s ease;
+
+    &-dark {
+      background-image: url(../../assets/icons-dark-mode/favourites-heart-like.svg);
+      transition: background-image 0.3s ease;
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover {
+      animation: icons-scale 1s infinite;
+      background-image: url(../../assets/icons/favourites-filled-heart-like.svg);
+    }
+  }
+
+  &--shopping-bag {
+    background-image: url(../../assets/icons/shopping-bag-cart.svg);
+    transition: transform 0.3s ease;
+
+    &-dark {
+      background-image: url(../../assets/icons-dark-mode/shopping-bag-Cart.svg);
+    }
+
+    &:hover {
+      animation: icons-shop 1s infinite alternate-reverse;
+    }
+  }
+}
+
+html:has(.navigation-mobile) {
+  overflow: hidden;
+}
+
+.is-icon-active {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -24px;
+    left: -24px;
+    background-color: #0F0F11;
+    width: 64px;
+    height: 3px;
+  }
+}
+
+@media (max-width: 639px) {
+  .header__search-bar {
+    display: none;
+  }
+}
+
+.icon--search__link-navigation-mobile .header__search-bar {
+  display: flex;
+  border: 1px solid #E2E6E9;
+}
+
+.active-icon-link-mobile {
+  border-top: 3px solid #0F0F11;
+}

@@ -1,0 +1,19 @@
+#is-light {
+    --primaryColor: #0f0f11;
+    --secondaryColor: #89939a;
+    --accentColor: #905bff;
+    --iconsPlaceholdersColor: #b4bdc3;
+    --elementsColor: #e2e6e9;
+    --pageBackgroundColor: #fafbfc;
+    --cardBackgroundColor: #ffffff;
+}
+
+#is-dark {
+    --primaryColor: #f1f2f9;
+    --secondaryColor: #75767f;
+    --accentColor: #905bff;
+    --iconsPlaceholdersColor: #323542;
+    --elementsColor: #3b3e4a;
+    --pageBackgroundColor: #0f1121;
+    --cardBackgroundColor: #161827;
+}

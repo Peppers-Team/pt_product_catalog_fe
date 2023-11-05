@@ -1,0 +1,115 @@
+@import "./styles/mixins.scss";
+
+.catalog {
+  @include PageGrid;
+  max-width: 1200px;
+  justify-items: center;
+}
+
+.phones {
+  margin-bottom: 24px;
+  margin-left: 15px;
+
+  &__amount {
+    margin-bottom: 32px;
+    font-family: 'Mont-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: var(--secondaryColor);
+  }
+
+  &__title {
+    margin-bottom: 8px;
+  }
+}
+
+.sort {
+  @include PageGrid;
+  row-gap: 20px;
+  margin-bottom: 24px;
+
+  &__section {
+    grid-column: 1 / 1;
+
+    @include onTablet {
+      grid-column: span 4;
+    }
+  }
+
+  &__item {
+    width: 176px;
+
+    &--dark {
+      background-color: var(--iconsPlaceholdersColor);
+    }
+
+    &--sort {
+      grid-column: 1 / 3;
+
+      @include onTablet {
+        grid-column: 1 / 8;
+      }
+    }
+
+    &--pagination {
+      grid-column: 3 / 5;
+
+      @include onTablet {
+        grid-column: 9 / 15;
+      }
+    }
+
+    &-text {
+      font-family: 'Mont-Regular', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--primaryColor);
+      line-height: 21px;
+    }
+  }
+
+  &__select {
+    height: 40px;
+  }
+
+  &__item-text {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-label {
+    margin-left: 8px;
+    color: var(--secondaryColor);
+    font-family: "Mont-SemiBold";
+    font-size: 12px;
+    line-height: 15.34px;
+  }
+}
+
+.range {
+  &__section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+  }
+
+  &__price-number {
+    color: var(--primaryColor);
+  }
+}
+
+.MuiSlider-track {
+  color: var(--accentColor);
+}
+
+.MuiSlider-thumb {
+  color: var(--accentColor);
+}
+
+.MuiSlider-rail {
+  color: var(--secondaryColor);
+}

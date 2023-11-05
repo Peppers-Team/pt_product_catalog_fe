@@ -1,0 +1,47 @@
+$headerHeight: 65px;
+$footerHeight: 65px;
+
+.ErrorPopUp {
+  width: 100%;
+  padding: 0 24px;
+
+  &__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400;
+    border: 2px solid #89939A;
+    padding: 16px;
+
+    // min-height: calc(100vh - $headerHeight - $footerHeight);
+  }
+
+  &__header {
+    font-family: 'Mont-Bold';
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: -0.32px;
+    color: var(--primaryColor);
+
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 639px) {
+  .ErrorPopUp {
+    padding: 0 16px;
+
+    &__header {
+      font-size: 12px;
+    }
+  }
+}

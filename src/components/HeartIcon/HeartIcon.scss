@@ -1,0 +1,17 @@
+.HeartIcon {
+  height: 48px;
+  width: 48px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pageBackgroundColor);
+
+  border: 1px solid var(--iconsPlaceholdersColor);
+  border-radius: 48px;
+
+  &:hover {
+    border-color: var(--primaryColor);
+  }
+}
