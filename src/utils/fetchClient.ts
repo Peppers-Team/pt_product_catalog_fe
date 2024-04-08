@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const BASE_URL = 'https://pt-api-8nrp.onrender.com';
+import { beLink } from './constant';
+
+const BASE_URL = beLink;
 
 type RequestMethod = 'GET' | 'POST' | 'PATCH' | 'DELETE';
 

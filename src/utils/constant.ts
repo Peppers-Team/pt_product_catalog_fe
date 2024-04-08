@@ -2,6 +2,7 @@ import mobilePhones from '../assets/images/category/mobile-phones.png';
 import tablets from '../assets/images/category/tablets.png';
 import accessories from '../assets/images/category/accessories.png';
 
+export const beLink = 'https://pt-product-catalog-be.onrender.com';
 export const categories = [
   {
     id: 'phones',
